@@ -1,0 +1,59 @@
+#form-container {
+    width: 60%;
+    height: 200px;
+    box-shadow: 10px 10px 30px #ccc;
+    border-radius: 30px;
+    margin: 50px auto;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#login-form input[type=email] {
+    height: 40px;
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 10px;
+    font-family: 'regular';
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+}
+
+#login-form input[type=password] {
+    height: 40px;
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 10px;
+    font-family: 'regular';
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+}
+
+#login-form input[type=submit] {
+    height: 40px;
+    width: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 10px;
+    font-family: 'regular';
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+    background-color: #e7e7e7;
+}
+
+#create-user-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,95 @@
+#form-container {
+    width: 60%;
+    height: 270px;
+    box-shadow: 10px 10px 30px #ccc;
+    border-radius: 30px;
+    margin: 50px auto;
+}
+
+#registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#registration-form input[type=email] {
+    height: 40px;
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 10px;
+    font-family: 'regular';
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+}
+
+#registration-form input[type=password] {
+    height: 40px;
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 10px;
+    font-family: 'regular';
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+}
+
+#registration-form input[type=password-confirmation] {
+    height: 40px;
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 10px;
+    font-family: 'regular';
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+}
+
+#registration-form input[type=submit] {
+    height: 40px;
+    width: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 10px;
+    font-family: 'regular';
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+    background-color: #e7e7e7;
+}
+
+#result-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#sucess-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#login-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#login-user-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
